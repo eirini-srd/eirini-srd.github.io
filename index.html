@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <style>
+        /* ===== RESET & BASE STYLES ===== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+
+        /* ===== CONTAINER ===== */
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* ===== HEADER SECTION ===== */
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            margin-bottom: 40px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background-color: #e9ecef;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 48px;
+            color: #6c757d;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+
+        .tagline {
+            font-size: 1.2em;
+            color: #6c757d;
+            margin-bottom: 20px;
+        }
+
+        .bio {
+            max-width: 600px;
+            margin: 0 auto;
+            color: #555;
+            line-height: 1.8;
+        }
+
+        /* ===== SECTION STYLES ===== */
+        section {
+            background-color: #fff;
+            padding: 40px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        h2 {
+            font-size: 2em;
+            margin-bottom: 30px;
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+
+        /* ===== PROJECTS SECTION ===== */
+        .project {
+            margin-bottom: 30px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .project:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .project h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+
+        .project p {
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        .project-link {
+            display: inline-block;
+            color: #3498db;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .project-link:hover {
+            color: #2980b9;
+            text-decoration: underline;
+        }
+
+        /* ===== CONTACT SECTION ===== */
+        .contact-links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .contact-item a {
+            color: #3498db;
+            text-decoration: none;
+            font-size: 1.1em;
+            transition: color 0.3s ease;
+        }
+
+        .contact-item a:hover {
+            color: #2980b9;
+            text-decoration: underline;
+        }
+
+        /* ===== FOOTER ===== */
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            color: #6c757d;
+            font-size: 0.9em;
+        }
+
+        /* ===== RESPONSIVE DESIGN ===== */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+
+            section {
+                padding: 30px 20px;
+            }
+
+            header {
+                padding: 40px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- HEADER / HERO SECTION -->
+        <header>
+            <!-- Profile Image Placeholder - Replace with your image -->
+            <div class="profile-image">👤</div>
+            
+            <!-- Your Name - Update this -->
+            <h1>Your Name</h1>
+            
+            <!-- Tagline - Customize this -->
+            <p class="tagline">Developer | Designer | Creator</p>
+            
+            <!-- Bio - Write your own bio here -->
+            <p class="bio">
+                Hi! I'm a passionate developer who loves building things for the web. 
+                I enjoy creating elegant solutions to complex problems and learning new 
+                technologies along the way.
+            </p>
+        </header>
+
+        <!-- PROJECTS SECTION -->
+        <section id="projects">
+            <h2>Projects</h2>
+            
+            <!-- Project 1 - Add your own projects -->
+            <div class="project">
+                <h3>Project Name 1</h3>
+                <p>
+                    A brief description of what this project does and the technologies 
+                    you used to build it. Highlight the key features and your role.
+                </p>
+                <a href="https://github.com/yourusername/project1" class="project-link" target="_blank">
+                    View on GitHub →
+                </a>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project">
+                <h3>Project Name 2</h3>
+                <p>
+                    Another exciting project showcasing your skills. Explain what problem 
+                    it solves and what makes it interesting or unique.
+                </p>
+                <a href="https://github.com/yourusername/project2" class="project-link" target="_blank">
+                    View on GitHub →
+                </a>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project">
+                <h3>Project Name 3</h3>
+                <p>
+                    Describe your third project here. You can add as many projects as you 
+                    want by copying this project div structure.
+                </p>
+                <a href="https://github.com/yourusername/project3" class="project-link" target="_blank">
+                    View on GitHub →
+                </a>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact">
+            <h2>Get In Touch</h2>
+            <div class="contact-links">
+                <!-- Email - Update with your email -->
+                <div class="contact-item">
+                    <span>📧</span>
+                    <a href="mailto:your.email@example.com">your.email@example.com</a>
+                </div>
+
+                <!-- GitHub - Update with your username -->
+                <div class="contact-item">
+                    <span>💻</span>
+                    <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a>
+                </div>
+
+                <!-- LinkedIn - Update with your profile -->
+                <div class="contact-item">
+                    <span>💼</span>
+                    <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a>
+                </div>
+
+                <!-- Twitter/X - Update or remove -->
+                <div class="contact-item">
+                    <span>🐦</span>
+                    <a href="https://twitter.com/yourusername" target="_blank">twitter.com/yourusername</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer>
+            <p>&copy; 2025 Your Name. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
